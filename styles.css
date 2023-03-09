@@ -1,6 +1,6 @@
 .portfolio-header {
+  background-color: black;
   position: relative;
-  background-image: url(images/header-bg.jpg);
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -11,9 +11,11 @@
 }
 
 .mdl-layout__title {
-  font-size: 14px;
   text-align: center;
-  font-weight: 300;
+  color: azure;
+  font-size: larger;
+  font-weight: bold;
+
 }
 
 .is-compact .mdl-layout__title span {
@@ -29,7 +31,7 @@
 }
 
 .portfolio-logo {
-  background: url(images/logo.png) 50% no-repeat;
+  background-image: url(/images/myFavicon.png);
   background-size: cover;
   height: 150px;
   width: 150px;
@@ -59,6 +61,10 @@
       -ms-flex: 1;
           flex: 1;
   line-height: 42px;
+  color:azure;
+  font-weight: bold;
+  font-size: large;
+  
 }
 
 .portfolio-header .mdl-layout__drawer-button {
@@ -166,5 +172,9 @@ img.article-image {
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
+}
+
+.body_content{
+  background-color: black;
 }
 
